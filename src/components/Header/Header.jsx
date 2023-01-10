@@ -11,7 +11,7 @@ import './Header.css'
 
 export const Header = () => {
   return (
-    <div className='header'>
+    <header>
         <div className="container">
           <div className="header-content">
             <div className="header-top">
@@ -83,6 +83,6 @@ export const Header = () => {
             </div>
           </div>
         </div>
-    </div>
+    </header>
   )
 }
