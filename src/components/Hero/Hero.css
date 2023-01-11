@@ -1,0 +1,115 @@
+.hero {
+    background: url('../../images/hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.container-left {
+    padding-left: 272px;
+    padding-right: 272px;
+    max-width: 640px;
+    background: linear-gradient(89.86deg, #8A94AB 0.13%, rgba(138, 148, 171, 0) 99.89%);
+    backdrop-filter: blur(6.5px);
+    max-width: 921px;
+}
+.left-box {
+    
+}
+
+.left-top {
+    margin-bottom: 91px;
+    padding-top: 98px;
+}
+
+.hero-h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 110%;
+    /* or 77px */
+    color: #FFFFFF;
+    width: 570px;
+    white-space: normal !important;
+    margin-bottom: 40px;
+}
+
+.hero-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 150%;
+    /* identical to box height, or 45px */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hero-text-box{
+    margin-left: 10px;
+}
+
+.yellow-btn {
+    background: #FFC85E;
+    border-radius: 80px;
+    border: none;
+    padding: 36px 88px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+.left-bottom {
+    margin-bottom: 94px;
+}
+
+.rec-box {
+    display: flex;
+}
+
+.left-rec {
+    display: flex;
+    align-items: center;
+    margin-bottom: 94px;
+    margin-right: 35px;
+}
+
+.plus {
+    background: #FFC856;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    border: none;
+}
+
+.rec-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    
+    
+    color: #FFFFFF;
+}
+
+.mute {
+
+}
+
+.right-rec {
+    display: flex;
+    align-items: center;
+    margin-bottom: 94px;
+}
+
+.bold {
+
+}

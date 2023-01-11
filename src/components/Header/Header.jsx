@@ -47,19 +47,19 @@ export const Header = () => {
                 <nav className="navbar">
                   <ul className="nav-list">
                     <li className="nav-item">
-                      <a href="#" className="nav-link mute">О компании</a>
+                      <a href="#" className="nav-link mute hover-mix">О компании</a>
                     </li>
                     <div className="opacity"></div>
                     <li className="nav-item">
-                      <a href="#" className="nav-link mute">Доставка и оплата</a>
+                      <a href="#" className="nav-link mute hover-mix">Доставка и оплата</a>
                     </li>
                     <div className="opacity"></div>
                     <li className="nav-item">
-                      <a href="#" className="nav-link mute">Возврат</a>
+                      <a href="#" className="nav-link mute hover-mix">Возврат</a>
                     </li>
                     <div className="opacity"></div>
                     <li className="nav-item">
-                      <a href="#" className="nav-link mute">Контакты</a>
+                      <a href="#" className="nav-link mute hover-mix">Контакты</a>
                     </li>
                   </ul>
                 </nav>
@@ -70,14 +70,16 @@ export const Header = () => {
               <div className="header-bot-left">
                 <div className="logo-box">
                   <img src={Logo} alt="logo-site" className='logo-site' />
-                  <button className='yellow yellow-button '><span className='btn-span'>Каталог</span><img src={Katalog} alt="" /></button>
+                  <button className='yellow yellow-button hover-btn '><span className='btn-span'>Каталог</span><img src={Katalog} alt="" /></button>
                 </div>
-                <input className='header-input' placeholder='Поиск...' type="text"/>
-                <button className='input-btn' type='submit'><img src={search} alt="" /></button>
+                <div className="input-box">
+                  <input className='header-input hover-mix' placeholder='Поиск...' type="text"/>
+                  <button className='input-btn' type='submit'><img src={search} alt="" /></button>
+                </div>
                 <div className="assistant">
                   <span className='bold assistant'>+7 (777) 490-00-91</span>
                   <span className='mute assistant'>время работы: 9:00-20:00</span>
-                  <a href='#' className='mute assistant'>Заказать звонок</a>
+                  <a href='#' className='mute assistant hover-mix'>Заказать звонок</a>
                 </div>
                 <img className='assist-img' src={Assist} alt="" />
                 <div className="online"></div>
@@ -85,13 +87,13 @@ export const Header = () => {
               </div>
               <div className="header-bot-right">
                 <div className="dotted">
-                  <button className='yellow yellow-button price'>Прайс-лист <img src={download} alt="" /></button>
+                  <button className='yellow yellow-button price hover-btn'>Прайс-лист <img className='download-img' src={download} alt="" /></button>
                 </div>
                 <div className="opacity"></div>
-                <img className='basked-img' src={magaz} alt="" />
-                <span className="basked-count"><span>3</span></span>
-                <div className="header-text-box">
-                  <span className="mute header-bottom-text">Корзина</span>
+                <img className='basked-img hover-mix' src={magaz} alt="" />
+                <div className="basked-count hover-mix"><span>3</span></div>              
+                <div  className="header-text-box">
+                  <span className="mute  header-bottom-text">Корзина</span>
                   <span className='bold'>12 478 ₸</span>
                 </div>
               </div>

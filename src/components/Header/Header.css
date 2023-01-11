@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+* {
+    white-space: nowrap;
+}
+
 .bold{
     font-family: 'Inter';
     font-style: normal;
@@ -15,6 +20,7 @@
 }
 .header-top {
     display: flex;
+    margin-bottom: 13px;
 }
 .header-left {
     
@@ -63,7 +69,8 @@
 }
 .header-bottom {
     display: flex;
-    
+    margin-bottom: 13px;
+    margin-top: 13px;
 }
 .hr {
     position: relative;
@@ -99,6 +106,16 @@
     display: flex;
     align-items: center;
 }
+.input-box{
+    width: 263px;
+    border-radius: 36px;
+    border: none;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 35px;
+    background: #EDEDED;
+    align-items: center;
+}
 .header-input {
     font-family: 'Inter';
     font-style: normal;
@@ -110,14 +127,10 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    background: #EDEDED;
-    border-radius: 36px;
-    border: none;
-    padding: 20px;
-    margin-left: 15px;
-    margin-right: 35px;
     outline: none;
-    width: 263px;
+    border: none;
+    background: #EDEDED;
+    margin-left: 10px;
 }
 .input-btn {
     background: #FFC85E;
@@ -125,8 +138,9 @@
     width: 39px;
     height: 39px;
     border: none;
-    position: absolute;
-    margin-left: 645px;
+    /* position: absolute; */
+    /* margin-left: 645px; */
+    margin-left: 30px;
 }
 .assistant {
     display: block;
@@ -153,7 +167,7 @@
 .online {
     background: #1FD85D;
     position: absolute;
-    margin-left: 982px;
+    margin-left: 942px;
     margin-bottom: 35px;
     width: 8px;
     height: 8px;
@@ -168,12 +182,27 @@
     display: block;
     margin-left: 28px;
 }
+.download-img {
+    margin-left: 14.83px;
+}
+.count2 {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    border: none;
+    background: #FFC85E;
+    display: flex;
+}
 .basked-count {
+    text-align: center;
+    align-items: center !important;
     position: absolute;
-    margin-left: 286px;
+    display: block;
+    margin-left: 300px;
     margin-bottom: 20px;
     z-index: 3;
-    align-items: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -183,7 +212,6 @@
     color: #FFFFFF;
     background: #FFC85E;
     border-radius: 50%;
-    text-align: center;
     width: 22px;
     height: 22px;
     border: 3px solid #FFFFFF;
@@ -194,4 +222,19 @@
 }
 .header-bottom-text{
     display: block;
+}
+
+.hover-mix:hover{
+    cursor: pointer;
+    color: #F3A50D;
+}
+.hover-btn:hover{
+    cursor: pointer;
+    background: #F3A50D;
+}
+
+/* RESPONSIVE!!! */
+
+@media only screen and (max-width: 1807px){
+    
 }
