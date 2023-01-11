@@ -117,6 +117,16 @@
     margin-left: 15px;
     margin-right: 35px;
     outline: none;
+    width: 263px;
+}
+.input-btn {
+    background: #FFC85E;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    border: none;
+    position: absolute;
+    margin-left: 645px;
 }
 .assistant {
     display: block;
@@ -132,7 +142,7 @@
 }
 .assist-img {
     margin-left: 10px;
-    border-radius: 45%;
+    border-radius: 46%;
     margin-right: 50px;
 }
 .offline {
@@ -142,6 +152,12 @@
 }
 .online {
     background: #1FD85D;
+    position: absolute;
+    margin-left: 982px;
+    margin-bottom: 35px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
     border: 2px solid #F0F6FA;
 }
 .header-bot-right {
@@ -153,6 +169,10 @@
     margin-left: 28px;
 }
 .basked-count {
+    position: absolute;
+    margin-left: 286px;
+    margin-bottom: 20px;
+    z-index: 3;
     align-items: center;
     font-family: 'Inter';
     font-style: normal;
@@ -166,4 +186,12 @@
     text-align: center;
     width: 22px;
     height: 22px;
+    border: 3px solid #FFFFFF;
+}
+
+.basked-img {
+    margin-left: 26px;
+}
+.header-bottom-text{
+    display: block;
 }

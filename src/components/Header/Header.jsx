@@ -70,16 +70,17 @@ export const Header = () => {
               <div className="header-bot-left">
                 <div className="logo-box">
                   <img src={Logo} alt="logo-site" className='logo-site' />
-                  <button className='yellow yellow-button'><span className='btn-span'>Каталог</span><img src={Katalog} alt="" /></button>
+                  <button className='yellow yellow-button '><span className='btn-span'>Каталог</span><img src={Katalog} alt="" /></button>
                 </div>
                 <input className='header-input' placeholder='Поиск...' type="text"/>
+                <button className='input-btn' type='submit'><img src={search} alt="" /></button>
                 <div className="assistant">
                   <span className='bold assistant'>+7 (777) 490-00-91</span>
                   <span className='mute assistant'>время работы: 9:00-20:00</span>
                   <a href='#' className='mute assistant'>Заказать звонок</a>
                 </div>
                 <img className='assist-img' src={Assist} alt="" />
-                <div className="offline"></div>
+                <div className="online"></div>
                 <div className="opacity"></div>
               </div>
               <div className="header-bot-right">
@@ -87,10 +88,10 @@ export const Header = () => {
                   <button className='yellow yellow-button price'>Прайс-лист <img src={download} alt="" /></button>
                 </div>
                 <div className="opacity"></div>
-                <img src={magaz} alt="" />
+                <img className='basked-img' src={magaz} alt="" />
                 <span className="basked-count"><span>3</span></span>
                 <div className="header-text-box">
-                  <p className="mute ">Корзина</p>
+                  <span className="mute header-bottom-text">Корзина</span>
                   <span className='bold'>12 478 ₸</span>
                 </div>
               </div>
