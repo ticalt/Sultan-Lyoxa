@@ -104,7 +104,7 @@ export const ProduktCard = () => {
                             <span className='value'>AOS</span>
                         </div>
                     </div>
-                    <div className="card-footer">
+                    <div className="unmargin">
                         <span className='card-price'>48,76 ₸</span>
                         <button className="yellow-btn2">В КОРЗИНУ <img src={WhiteBasked} alt="" /></button>
                     </div>
@@ -136,7 +136,7 @@ export const ProduktCard = () => {
                             <span className='value'>AOS</span>
                         </div>
                     </div>
-                    <div className="card-footer">
+                    <div className="unmargin">
                         <span className='card-price'>48,76 ₸</span>
                         <button className="yellow-btn2">В КОРЗИНУ <img src={WhiteBasked} alt="" /></button>
                     </div>
@@ -235,7 +235,7 @@ export const ProduktCard = () => {
                             <span className='value'>AOS</span>
                         </div>
                     </div>
-                    <div className="card-footer">
+                    <div className="unmargin">
                         <span className='card-price'>48,76 ₸</span>
                         <button className="yellow-btn2">В КОРЗИНУ <img src={WhiteBasked} alt="" /></button>
                     </div>
@@ -268,7 +268,7 @@ export const ProduktCard = () => {
                             <span className='value'>AOS</span>
                         </div>
                     </div>
-                    <div className="card-footer">
+                    <div className="unmargin">
                         <span className='card-price'>48,76 ₸</span>
                         <button className="yellow-btn2">В КОРЗИНУ <img src={WhiteBasked} alt="" /></button>
                     </div>

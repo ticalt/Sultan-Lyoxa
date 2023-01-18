@@ -114,6 +114,10 @@
     display: flex;
     align-items: center;
 }
+.unmargin {
+    display: flex;
+    align-items: center;
+}
 
 .card-price {
     font-family: 'Inter';

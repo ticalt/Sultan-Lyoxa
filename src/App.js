@@ -1,6 +1,7 @@
 import { ATovar } from "./components/ATovar/ATovar";
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
+import { KTovari } from "./components/KTovari/KTovari";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero/>
       <ATovar/>
+      <KTovari/>
     </div>
   );
 }
