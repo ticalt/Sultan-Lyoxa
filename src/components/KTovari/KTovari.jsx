@@ -6,8 +6,7 @@ import thrird from '../../images/3.png'
 import four from '../../images/4.png'
 import five from '../../images/5.png'
 import uborshik from '../../images/uborshik.png'
-import Carousel from '../Carusel/Carusel'
-import Carusel from '../Carusel/Carusel'
+import { Carusel } from '../Carusel/Carusel'
 
 
 export const KTovari = () => {
@@ -56,7 +55,7 @@ export const KTovari = () => {
             </div>
         </div>
         <div className="KTovar-bottom-box">
-            <Carusel/>
+            
         </div>
         </div>
     </div>
