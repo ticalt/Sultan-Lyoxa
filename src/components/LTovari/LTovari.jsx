@@ -75,29 +75,38 @@ export const LTovari = () => {
                         <div className="blur-bottom-box">
                             <div className="blur-bottom-left">
                                 <div className="blur-bottom-top">
-                                    <h3>Адрес:</h3>
+                                    <h3 className='blur-h3q'>Адрес:</h3>
                                     <div className="blur-bot-span-box">
                                         <img className='blur-top-img' src={loc} alt="" />
-                                        <span className="blur-span">г. Кокчетав, ул. Ж. Ташенова 129Б(Рынок Восточный)</span>
+                                        <div className="blur-span-box2">
+
+                                        <span className="blur-span2">г. Кокчетав, ул. Ж. Ташенова 129Б<br /> (Рынок Восточный)</span>
+                                        </div>
                                     </div>
                                 </div>
                                 <hr className='blur-hr'/>
                                 <div className="blur-botto-bottom">
-                                <h3>Данные налогоплательщика:</h3>
+                                <h3 className='blur-h3q'>Данные налогоплательщика:</h3>
                                     <div className="blur-bot-span-box">
                                         <img  className='blur-top-img' src={file} alt="" />
-                                        <span className="blur-span">ИП Катран Д.С.
+                                        <div className="blur-span-box2">
+                                        <span className="blur-span2">ИП Катран Д.С.
                                         </span>
-                                        <span className="blur-span">ИИН: 860113450858
+                                        <br />
+                                        <span className="blur-span2">ИИН: 860113450858
                                         </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="blur-bottom-right">
-                            <h3>Отдел продаж:</h3>
+                            <h3 className='blur-h3q'>Отдел продаж:</h3>
                                     <div className="blur-bot-span-box">
-                                        <span className="blur-span">+7 (777) 490-00-91</span>
-                                        <span className="blur-span">opt.sultan@mail.ru</span>
+                                        <div className="blur-span-box2">
+                                            <span className="blur-span2">+7 (777) 490-00-91</span>
+                                            <br />
+                                            <span className="blur-span2">opt.sultan@mail.ru</span>
+                                        </div>
                                     </div>
                                 <hr className='blur-hr'/>
                             </div>

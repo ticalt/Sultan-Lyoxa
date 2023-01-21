@@ -55,8 +55,7 @@ export const KTovari = () => {
             </div>
         </div>
         <div className="KTovar-bottom-box">
-            {/* botga carusel qoyish kere */}
-            {/* <Carusel/> */}
+            <Carusel/>
         </div>
         </div>
     </div>
