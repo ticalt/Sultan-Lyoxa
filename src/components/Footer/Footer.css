@@ -1,0 +1,156 @@
+.Footer {
+    background: #3F4E65;
+    box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+}
+.footer-cotent {
+    display: flex;
+    padding-top: 71px;
+    padding-bottom: 116px;
+}
+.footer-left-box {
+    margin-right: 59px;
+}
+.footer-logo {
+
+}
+.footer-max-span {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    max-width: 320px;
+    white-space: normal;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.footer-min-span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.input-box {
+    background: #FFFFFF;
+    border-radius: 36px;
+    max-width: 259px;
+    padding: 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    max-height: 59px;
+    margin-top: 14px;
+}
+.footer-input {
+    outline: none;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    background: transparent;
+}
+.footer-input-btn {
+    background: #FFC85E;
+    border-radius: 1000px;
+    width: 39px;
+    height: 39px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    padding-left: 3px;
+}
+.footer-main-right-box {
+    display: flex;
+}
+.footer-list {
+    max-width: 220px;
+    margin-right: 98px;
+}
+.footer-bold {
+    white-space: normal;
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.footer-def-span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    display: block;
+    white-space: normal;
+}
+.yellow-btn-download {
+    background: #FFC85E;
+    border-radius: 79px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;    
+    border: none;
+    margin-bottom: 20px;
+}
+
+.download-btn-img {
+    margin-left: 14px;
+}
+
+.footer-social-icons-box2 {
+    margin-top: 25px;
+}
+.footer-social-icon {
+    margin-right: 10px;
+}
+.footer-social-icon2 {
+    margin-right: 5px;
+}
+.footer-norm-span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    display: block;
+    white-space: normal;
+}
+.footer-sup-min-span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FFFFFF;
+    display: block;
+    white-space: normal;
+}
+
+.under {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}

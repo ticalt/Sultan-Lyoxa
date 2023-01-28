@@ -1,0 +1,33 @@
+.a-tovar {
+
+}
+.a-tovar-top-box {
+
+}
+.a-tovar-text-box {
+    display: flex;
+    white-space: nowrap;
+}
+.yellow-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFC85E;
+    white-space: nowrap;
+}
+.a-tovar-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+.a-tovar-bottom-box {
+
+}

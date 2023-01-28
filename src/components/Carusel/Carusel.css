@@ -1,0 +1,107 @@
+.carousel {
+    display: block;
+    text-align-last: left;
+}
+
+.carousel-content {
+    width: 1336px;
+    background-image: url(../../images/uborshik.png);
+    background-position-x:390px ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+}
+
+.carousel-left-box {
+    background: linear-gradient(0deg, #bcc5d1 0%, #d6e0e5 65.9%, #ccd3d8 100%);
+    max-width: 686px;
+    border-radius: 10px;
+    padding: 80px 110px;
+    padding-bottom: 0px;
+}
+
+.carousel-min-span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.carousel-main-bold-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.carousel-main-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.carousel-def-span {
+    display: block;
+    margin-top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.carousel-yellow-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #FFC85E;
+    border-radius: 79px;
+    padding: 34px 74px;
+    border: none;
+    margin-bottom: 77px;
+}
+
+.active-page2 {
+    background: #FFFFFF !important;
+    border-radius: 100px;
+    width: 26px;
+    height: 7px;
+    margin-right: 6px;
+}
+
+.carousel-left-btn {
+    position: absolute;
+    z-index: 20;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+
+.carousel-right-btn {
+    position: absolute;
+    margin-left: 1200px;
+    margin-bottom: 200px;
+}
+.page-box2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 600px;
+}

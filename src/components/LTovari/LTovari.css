@@ -1,0 +1,185 @@
+.LTovari {
+    margin-top: 100px;
+}
+
+.ltovari-top-box {
+
+}
+
+.ltovari-text-box {
+
+}
+
+.ltovari-h2-box {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.yellow-text {
+
+}
+
+.ltovari-h2 {
+
+}
+
+.a-tovar-text {
+
+}
+
+.ltovari-span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    color: #3F4E65;
+}
+
+.ltovari-brand-box {
+    margin-top: 50px;
+    display: flex;
+}
+
+.brand {
+    background: #ffffff;
+    box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.brand-img {
+
+}
+
+.page-box {
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.active-page {
+    width: 26px;
+    height: 7px;
+    background: #FFC85E;
+    border-radius: 100px;
+    margin-right: 6px;
+}
+
+.page {
+    width: 16px;
+    height: 7px;
+    background: #3F4E65;
+    opacity: 0.1;
+    border-radius: 100px;
+    margin-right: 6px;
+}
+
+.ltovar-bottom-box {
+    max-width: 1366px;
+    margin-bottom: 100px;
+}
+
+.ltovar-bottom-bcg {
+    background-image: url('../../images/location.png');
+    padding-top: 30px;
+    padding-bottom: 136px;
+}
+
+.ltovar-bottom-content {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
+    max-width: 735px;
+    margin-left: 30px;
+    padding: 60px 50px;
+}
+
+.blur-top-text-box {
+    margin-bottom: 25px;
+}
+
+.blur-h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    color: #3F4E65;
+    margin-bottom: 15px;
+}
+
+.blur-span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    color: #3F4E65;    
+}
+.blur-span2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130.02%;
+    color: #3F4E65;
+}
+
+.blur-bottom-box {
+    max-width: 283px;
+    display: flex;
+}
+
+.blur-bottom-left {
+    margin-right: 71px;
+}
+
+.blur-bottom-top {
+    margin-bottom: 25px;
+}
+
+.blur-bot-span-box {
+    display: flex;
+    align-items: center;
+}
+
+.blur-top-img {
+    margin-right: 13px;
+}
+
+.blur-span {
+    
+}
+
+.blur-h3q {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130.02%;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+.blur-hr {
+    margin: 25px 0;
+    opacity: 0.2;
+    border: 1px dashed #3F4E65;
+}
+
+.blur-botto-bottom {
+
+}
+
+.blur-bottom-right {
+
+}

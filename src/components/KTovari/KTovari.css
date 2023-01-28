@@ -1,0 +1,120 @@
+.KTovar {
+
+}
+
+.KTovar-top-box {
+    margin-bottom: 50px;
+}
+
+.k-tovar-text-box {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.k-tovar-h2-box {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.a-tovar-text {
+}   
+
+.yellow-text {
+
+}
+
+.a-tovar-text {
+
+}
+
+.k-tovar-span {
+    display: block !important ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    color: #3F4E65;
+}
+
+.product-case {
+    display: flex;
+}
+
+.product-box {
+    
+    margin-right: 30px;
+}
+
+.product-img-box1 {
+    background: #f9f6f1;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/1.png);
+    background-repeat: no-repeat;
+    background-position-y: 35px;
+    margin-bottom: 20px;
+}
+.product-img-box2 {
+    background: #f9f6f1;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/2.png);
+    background-repeat: no-repeat;
+    background-position-y: 45px;
+    margin-bottom: 20px;
+}
+.product-img-box3 {
+    background: #f9f6f1;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/3.png);
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+    margin-bottom: 20px;
+}
+.product-img-box4 {
+    background: #f9f6f1;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/4.png);
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+    margin-bottom: 20px;
+}
+.product-img-box5 {
+    background: #f9f6f1;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/5.png);
+    background-repeat: no-repeat;
+    background-position-y: 35px;
+    margin-bottom: 20px;
+}
+
+
+.kproduct-img {
+    position: relative;
+    margin-bottom: -10px;
+}
+
+.product-img-value {
+    display: block;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #111111;
+    
+}
+
+.KTovar-bottom-box {
+    margin-top: 100px;
+}
